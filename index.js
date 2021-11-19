@@ -33,12 +33,17 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'usage',
+        message: 'How is this application useful?'
+    },
+    {
+        type: 'input',
         name: 'installation',
         message: 'What is the command to install?'
     },
     {
         type: 'list',
-        name: 'Licenses',
+        name: 'license',
         message: 'What license would you like to use',
         choices: ['MIT', 'BSD', 'Unlicense', 'GPL-3.0']
     },
@@ -68,3 +73,4 @@ function init() {
 
 // Function call to initialize app
 init();
+
