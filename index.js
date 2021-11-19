@@ -7,7 +7,7 @@ const generateMarkdown = require('./utils/generateMarkdown')
 const questions = [
     {
         type: 'input',
-        name: 'github',
+        name: 'username',
         message: 'What is your username?'
 
     },
@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Github',
+        name: 'github',
         message: 'What is your Github username?'
     },
     {
@@ -73,4 +73,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
